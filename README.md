@@ -49,7 +49,25 @@ Format de réponse attendu : JSON
 
 Les fichiers de configuration de CustomNPCs dans le dossier saves/<nom_du_monde>/customnpcs/ suivent cette structure :
 
-customnpcs/ ├── clones/ │ ├── / │ │ ├── <Nom_du_PNJ>.json ├── dialogs/ │ ├── <Catégorie>/ │ │ ├── <ID_Dialogue>.json ├── markets/ │ ├── <Nom_du_Marché>.json ├── playerdata/ │ ├── <UUID_Joueur>.json ├── quests/ │ ├── <Catégorie>/ │ │ ├── <ID_Quête>.json ├── schematics/ ├── scripts/ ├── global.dat ├── recipes.dat ├── spawns.dat
+customnpcs/ 
+├── clones/ 
+│ ├── / 
+│ │ ├── <Nom_du_PNJ>.json 
+├── dialogs/ 
+│ ├── <Catégorie>/ 
+│ │ ├── <ID_Dialogue>.json
+├── markets/ 
+│ ├── <Nom_du_Marché>.json 
+├── playerdata/
+│ ├── <UUID_Joueur>.json 
+├── quests/ 
+│ ├── <Catégorie>/ 
+│ │ ├── <ID_Quête>.json 
+├── schematics/
+├── scripts/ 
+├── global.dat 
+├── recipes.dat 
+├── spawns.dat
 
 🧠 Logique de Génération et Interactions entre Fichiers
 
