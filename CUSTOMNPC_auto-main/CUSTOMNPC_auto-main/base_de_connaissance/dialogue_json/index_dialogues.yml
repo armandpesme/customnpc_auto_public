@@ -1,0 +1,65 @@
+dialogs:
+  1.json:
+    titre: Menu principal de Bob
+    type: à choix
+    disponibilité: avant quête
+    options:
+      - choix_1 → 2.json (retour)
+      - choix_2 → 3.json (retour)
+      - choix_3 → 4.json (retour + give)
+      - choix_4 → 5.json (déclenche quête)
+      - choix_5 → 6.json (déclenche quête)
+    déclenche:
+      - quête: non
+      - commande: non
+      - mail: non
+      - son: oui
+
+  2.json:
+    type: retour
+    disponibilité: sans_restriction
+    action: retour vers 1.json
+    déclenche: aucun
+
+  3.json:
+    type: retour
+    disponibilité: sans_restriction
+    action:
+      - retour vers 1.json
+      - envoie un mail
+    déclenche: aucun
+
+  4.json:
+    type: retour + commande
+    disponibilité: sans_restriction
+    action:
+      - retour vers 1.json
+      - /give @p oak_log 1
+    déclenche: aucun
+
+  5.json:
+    type: déclencheur
+    disponibilité: avant quête
+    action: démarre la quête 1
+    déclenche:
+      - quête: oui (ID 1)
+      - commande: non
+      - mail: non
+      - son: non
+
+  6.json:
+    type: déclencheur
+    disponibilité: avant quête
+    action: démarre la quête 1
+    déclenche:
+      - quête: oui (ID 1)
+      - commande: non
+      - mail: non
+      - son: non
+
+  7.json:
+    type: en_cours
+    disponibilité: si quête 1 est en cours
+    action: démarre la quête 2
+    déclenche:
+      - quête: oui (ID 2)

@@ -1,0 +1,45 @@
+{
+    "CompleterNpc": "Diaxe",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Va choisir une arme",
+    "Text": "Va trouver Diaxe en echange  [blablabla..etc..]",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "/give @p dungeons_and_combat:fractured_soul 2",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1752050275747L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Oui choisir une arme !"
+}
