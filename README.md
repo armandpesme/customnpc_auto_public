@@ -14,15 +14,14 @@ Documentation Kodevelopment : Kodevelopment CustomNPCs
 
 Exemples de modèles JSON :
 
-    quest_json_creation.txt
-
-    dialogue_json_creation.txt
-
-    dialog_choose_reponse.txt
-
-    npc_json_creation.txt
-
-    autres_dossiers.txt
+    base_de_connaissance/clone_json/Bob.json
+    base_de_connaissance/clone_json/clone_json.md
+    base_de_connaissance/dialogue_json/1.json.. 11.json
+    base_de_connaissance/dialogue_json/dialogue_json.md
+    base_de_connaissance/dialogue_json/index_dialogues.yml
+    base_de_connaissance/quete_json/1.json.. 11.json
+    base_de_connaissance/quete_json/index_quetes.yml
+    base_de_connaissance/quete_json/quete_json.md
 
 Contenus HTML des documentations (fournis en .zip) :
 
