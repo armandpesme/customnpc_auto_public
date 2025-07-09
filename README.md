@@ -70,9 +70,15 @@ customnpcs/
 ├── spawns.dat
 
 Soit:
-customnpcs__clones__1__<Nom_du_PNJ>.json
-customnpcs__dialogs__<Catégorie>__<ID_Dialogue>.json
-customnpcs__quests__<Catégorie>__<ID_Quête>.json 
+
+customnpcs__clones__1__<Nom_du_PNJ>.json                 //les nom 1..2..3..4..5 sont des fichier vide a utiliser
+
+
+customnpcs__dialogs__<Catégorie>__<ID_Dialogue>.json     //les nom 1..2..3..4..5 sont des fichier vide a utiliser
+
+
+customnpcs__quests__<Catégorie>__<ID_Quête>.json         //les nom 1..2..3..4..5 sont des fichier vide a utiliser
+
 
 
 🧠 Logique de Génération et Interactions entre Fichiers
