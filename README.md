@@ -69,6 +69,12 @@ customnpcs/
 ├── recipes.dat 
 ├── spawns.dat
 
+Soit:
+customnpcs__clones__1__<Nom_du_PNJ>.json
+customnpcs__dialogs__<Catégorie>__<ID_Dialogue>.json
+customnpcs__quests__<Catégorie>__<ID_Quête>.json 
+
+
 🧠 Logique de Génération et Interactions entre Fichiers
 
 Le système repose sur une triple synchronisation entre les fichiers de quêtes, de dialogues et de PNJ (clones) via des ID.
