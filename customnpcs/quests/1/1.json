@@ -1,12 +1,12 @@
 {
     "CompleterNpc": "Bob",
-    "NextQuestId": -1,
+    "NextQuestId": 2,
     "RandomReward": 0b,
     "QuestRepeat": 0,
     "QuestCompletion": 0,
     "IgnoreNBT": 0b,
     "Title": "Rencontrer Bob le fermier",
-    "Text": "Retrouvez Bob au village.",
+    "Text": "Prax vous demande de trouver Bob au village.",
     "QuestFactionPoints": {
         "DecreaseFaction1Points": 0b,
         "OptionFaction2Points": 100,
@@ -27,7 +27,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1752051373000L,
+        "TimePast": 1752049918709L,
         "Time": 0L,
         "Subject": ""
     },
@@ -41,5 +41,5 @@
         ]
     },
     "LeaveItems": 0b,
-    "CompleteText": "Merci d'avoir rencontré Bob!"
+    "CompleteText": "Vous avez trouvé Bob."
 }
